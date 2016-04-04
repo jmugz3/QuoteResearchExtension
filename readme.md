@@ -1,4 +1,4 @@
-## Quote Research for Google Chrome
+## Quote Research for Google Chrome Extension
 
 This repository aims to facilitate quote research for anyone using [TradeKing](tradeking.com) API.
 
