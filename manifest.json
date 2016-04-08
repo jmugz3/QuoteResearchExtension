@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "QuoteResearch - QR",
+  "version": "0.1.0",
+
+  "default_locale": "en",
+  "description": "A extension that provides information about a stock, fund or index.",
+  "icons": {
+    "16"  :"icon.png"
+    "128" : "icon128.png"
+  },
+  "browser_action": {...},
+  "author": "Jose Mugaburu"
+  "homepage_url": "http://mugabits.com/qr-extension",
+  "minimum_chrome_version": "40",
+  "offline_enabled": true,
+  "optional_permissions": ["tabs"],
+  "options_page": "config.html",
+  "options_ui": {
+    "chrome_style": true,
+    "page": "config.html"
+  },
+  "permissions": ["tabs"],
+  "platforms": ...,
+  "plugins": [...],
+  "requirements": {...},
+  "sandbox": [...],
+  "short_name": "QR Extension",
+  "version_name": "alpha",
+  
+}
