@@ -6,11 +6,11 @@ var xml2json = require('xml2json');
 var url = configuration.url;
 
 var requestToken = 'https://developers.tradeking.com/oauth/request_token';
-
 var userAuthorization = 'https://developers.tradeking.com/oauth/authorize';
-
 var accessToken = 'https://developers.tradeking.com/oauth/access_token';
 
+
+// TODO : Must update API calls to match new Ally Invest instead of TradeKing
 
 var tradeking_consumer = new oauth(
   requestToken,
